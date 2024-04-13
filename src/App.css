@@ -1,0 +1,86 @@
+body {
+  background:
+    linear-gradient(to bottom right, #3C4BBD 15%, transparent),
+    radial-gradient(circle at 100% 0%, rgba(255,255,255,.2) 10%, transparent 20%) center center / 15px 15px,
+    
+    linear-gradient(to bottom right, #3C4BBD, #57ADD8);
+    min-height: 100vh;
+    
+}
+#inputBox{
+  border-radius: 10px;
+  border: 1px solid rgb(100,100,100);
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+#img{
+  margin-left: 36%;
+  height: 30%;
+  width:30%;
+  border-radius: 10px;
+  border: 1px solid;
+  padding: 50px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+#btn{
+  border-radius: 10px;
+}
+.loader {
+  text-align: center;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+body{}
+#cloudy{
+  background-image: url("https://i.pinimg.com/originals/f9/aa/a4/f9aaa4a9a402503edd577d665fb22d5b.gif");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+#mist{
+  background-image: url("https://c.tenor.com/5ImWLS5QAJgAAAAC/foggy-fog.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+}
+#rain{
+  background-image: url("https://media0.giphy.com/media/3oKIPstwMF15FghbYQ/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+}
+#clear{
+  background-image: url("https://thumbs.gfycat.com/IckyAmbitiousBasenji-max-1mb.gif");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+#sunny{
+  background-image: url("https://i.pinimg.com/originals/75/16/ea/7516ea5454d6ebb256d2ecb34b66a95c.gif");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
