@@ -69,7 +69,7 @@ export default class Task extends Component {
   render() {
     const { locationArr, currentArr, check } = this.state;
     return (
-      <div id={check}>
+      <div id={check} className="app-wrapper">
         <input
           type="text"
           style={{ width: "100%" }}

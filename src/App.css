@@ -1,17 +1,12 @@
 body {
-  background:
-    linear-gradient(to bottom right, #3C4BBD 15%, transparent),
-    radial-gradient(circle at 100% 0%, rgba(255,255,255,.2) 10%, transparent 20%) center center / 15px 15px,
-    
-    linear-gradient(to bottom right, #3C4BBD, #57ADD8);
     min-height: 100vh;
-    
+}
+.app-wrapper {
+  padding: 20px;
 }
 #inputBox{
   border-radius: 10px;
   border: 1px solid rgb(100,100,100);
-  padding: 10px;
-  box-shadow: 5px 10px #888888;
 }
 #img{
   margin-left: 36%;
@@ -24,6 +19,7 @@ body {
 }
 #btn{
   border-radius: 10px;
+  border: 4px solid #a47e7e;
 }
 .loader {
   text-align: center;
